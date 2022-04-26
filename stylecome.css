@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(assets/img/bg.JPG);
+	opacity: 1.7;
+	background-size: cover;
+	font-family: sans senrif;
+	background-attachment: fixed;	
+}
+.section {
+padding: 78px 0;
+}
+.section1 {
+	margin: 0;
+}
+.text-center3 {
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+.text-center h2 {
+	color: white;
+	font-weight: 300;
+	font-family:"Raleway", sans-serif;
+	font-size: 27px;
+}
+
+.text-center p {
+	color: white;
+	font-weight: 300;
+	font-family:"Raleway", sans-serif;
+	font-size: 19px;
+}
+.working {
+	font-size: 22px;
+	text-align: center;
+	line-height: 45px;
+	color:white;
+	margin-bottom: 23px;
+}
+.trans {
+    display: inline-block;
+	text-align: center;
+	padding: 5px 18px;
+	border: 1px solid #6c757d;
+}
+.ml-5 h3 {
+	color: white;
+	font-weight: 800
+}
+.ml-5 h4 {
+	color: white;
+	font-weight: 800;
+}
+.ml-5 {
+	background-color: gray;
+	opacity: 0.8;
+}
+.now {
+	padding-top: 67px;
+}
+.now h4 {
+	color: white;
+	font-family: sans-serif;
+}
+.button {
+	background-color: #f50000;
+	color: white;
+	box-shadow:0px 2px 15px rgb(0 0 0 / 10%);
+	padding: 11px 23px;
+	border: none; 
+}
+.form-group {
+	text-align: center;
+	padding-top: 23px;
+}
+.input {
+	padding: 9px 85px;
+	background-color: white;
+	border: none;
+}
+.social-links a {
+	padding: 0px 17px;
+	font-size: 30px;
+	color: #ffffffcc;
+}
+.countdowncontainer {
+	position: absolute;
+	background: #ddd;
+	border: 1px solid #ddd;
+}
+.laboris {
+	display: inline-block;
+	color: white;
+}
+.laborum h2 {
+	color: white;
+	font-size:48px;
+	font-family: arial black;
+	display: block;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700px;
+}
+.laborum h3 {
+	color: white;
+	font-size: 20px;
+	font-weight: 400px;
+	font-family: "Raleway", sans-serif;
+	width: 80%;
+}
+
+.laboris p {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 27px;
+	padding-bottom: 9px;
+	font-weight: normal;
+}
+.contact {
+	color: white;
+}
+.dot li {
+	list-style-type: none;
+	color: white;
+	font-size: 16px;
+	position:relative;
+	line-height: 29px;
+	font-family: "Open Sans", "sans-serif";
+}
+.font-italic {
+	color: white;
+	font-family: "Open Sans", "sans-serif";
+	font-weight:normal;
+	display: absolute;
+}
+.section2 {
+	padding: 100px 0;
+}
+.section3 {
+	margin: 0;
+}
+.icofont-check {
+	color: red;
+}
+
+.hint {
+	color: white;
+}
+.top h4 {
+	color: white;
+	text-transform: capitalize;
+	text-align: center;
+	padding-top: 23px;
+	font-size: 32px;
+	font-weight: 300px;
+	font-family: "Raleway", sans-serif;
+}
+#area {
+	margin-top: 23px;
+	resize:normal;
+	margin-left: 34px;
+
+}
+.center {
+	text-align: center;
+}
+.btn {
+	margin-top: 22px;
+	padding: 7px 16px;
+	border-radius: 0;
+	color: white;
+	font-size: 18px;
+	background: #ff0000;
+}
+.soon {
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 41px;
+}
+.soon span {
+	padding-left: 12px;
+}
+.transparent {
+	background: rgba(255, 255, 255, 0.06);
+}
+.real {
+	margin-bottom: 23px;
+}
+.chem {
+	padding-left: 34px
+}
+.email {
+	margin-left: 3px;
+	height: 45px;
+	border-radius: 0px ! important;
+	margin-left:28px;
+}
+.email1 {
+	height: 45px;
+	border-radius: 0px ! important;
+	margin-left:52px;
+}
+.subject1 {
+	height: 45px;
+	border-radius: 0px ! important;
+	margin-left:33px;
+}
+.textarea1 {
+	border-radius: 0px ! important;
+}
+.boot {
+	color: #ff3333;
+}
