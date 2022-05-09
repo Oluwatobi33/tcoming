@@ -4,8 +4,9 @@ body {
 	background-image: url(assets/img/bg.JPG);
 	opacity: 1.7;
 	background-size: cover;
-	font-family: sans senrif;
-	background-attachment: fixed;	
+	font-family:sans-serif;
+	background-attachment: fixed;
+	background-position: relative;	
 }
 .section {
 padding: 78px 0;
@@ -43,7 +44,6 @@ padding: 78px 0;
 .trans {
     display: inline-block;
 	text-align: center;
-	padding: 5px 18px;
 	border: 1px solid #6c757d;
 }
 .ml-5 h3 {
@@ -72,14 +72,9 @@ padding: 78px 0;
 	padding: 11px 23px;
 	border: none; 
 }
-.form-group {
-	text-align: center;
-	padding-top: 23px;
-}
-.input {
-	padding: 9px 85px;
-	background-color: white;
-	border: none;
+.btn {
+position: relative;
+padding: 12px;
 }
 .social-links a {
 	padding: 0px 17px;
@@ -159,17 +154,15 @@ padding: 78px 0;
 	font-family: "Raleway", sans-serif;
 }
 #area {
-	margin-top: 23px;
-	resize:normal;
-	margin-left: 34px;
 
+	resize:none;
 }
 .center {
 	text-align: center;
 }
 .btn {
 	margin-top: 22px;
-	padding: 7px 16px;
+	padding: 2px 16px;
 	border-radius: 0;
 	color: white;
 	font-size: 18px;
@@ -207,8 +200,7 @@ padding: 78px 0;
 }
 .subject1 {
 	height: 45px;
-	border-radius: 0px ! important;
-	margin-left:33px;
+	
 }
 .textarea1 {
 	border-radius: 0px ! important;

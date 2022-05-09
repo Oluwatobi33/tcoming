@@ -23,14 +23,16 @@
 	<div class="container ">
 		<div class="row">
 			<div class=" col-md-12 together">
-			    <h1 class="text-center3">ComingSoon</h1>
+			    <h1 class="text-center">ComingSoon</h1>
 				<h2 class="working">We're working hard to improve our website and we'll ready to launch after</h2>
 			</div>
 		</div>
+	</div>
+	<div class="container">
 		<div class="row">
-			<div class="col-md-12 d-flex  justify-content-center">
-				<div class="coundowncontainer d-flex justify-content-center" data="2021/6/6">
-					<div class="trans ml-5">
+			<div class="col-md-12 col-sm-12 d-flex  justify-content-center">
+				<div class="inline-block justify-content-center">
+					<div class="trans">
 						<h3><strong>181</strong></h3>
 				        <h4>Days</h4>
 					</div>
@@ -49,15 +51,30 @@
 				</diV>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12 now">
-				<h4 class="text-center">Subscribe now to get the latest updates!</h4>
-				<form  action="forms/notify.php"class="form-group" method="get" role="form" >
-					<div class="form-inline d-flex justify-content-center">
-						<input type="email" class="input " name="email"><button type="submit" value="Subscribe"class="button" name="Subscribe">Subscribe</button>
+	</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-7">
+				<h4 class="text-center text-white">Subscribe now to get the latest updates!</h4>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-4 text-center">
+				<form class="form-inline">
+					<div class=" d-flex align-items-baseline">
+						<input type="text" class="form-control h-100 ">
+						<button type="button" class="btn btn-sm btn-danger rounded rounded-5 rounded-pill">SUBSCRIBE</button>
 					</div>
 				</form>
-				<div class="social-links text-center">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-12 text-center">
+				<div class="social-links">
 					<a href="#" class="twitter"><i class="icofont-twitter"></i></a>
 					<a href="#" class="facebook"><i class="icofont-facebook"></i></a>
 					<a href="#" class="instagram"><i class="icofont-instragram"></i></a>
@@ -65,7 +82,7 @@
 					<a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 </section>
 <section class="section2 section3">
@@ -111,13 +128,13 @@
 						<h2>Location</h2>
 						<p>A108 Adam street<br>New York,NY 535022</p>
 					</div>
-					<div class="col-md-4 col-lg-4 align-items-center">
+					<div class="col-md-4  align-items-center">
 						<i class="icofont-envelope hint "></i>
 						<h2>Email:</h2>
 						<p>info@example.com
 						contact@example.com</p>
 					</div>
-					<div class="col-md-4 col-lg-4 align-items-center">
+					<div class="col-md-4  align-items-center">
 						<i class="icofont-phone hint "></i>
 						<h2>Call:</h2>
 						<p>+15589 55488 51<br>
@@ -126,22 +143,24 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class="row">
-					<div class=" col-lg-12">
+				<div class="row justify-content-start">
+					<div class=" col-lg-12 text-center">
 						<form class="form-inline justify-content-center">
-							<div class="form-inline align-items-center real col-lg-12">
-								<input type="text" class="form-control email1   col-lg-5 " placeholder="Your Name" required>
-								<input type="email" class="form-control email   col-lg-5" placeholder="Email" required>
-							</div>	
+							<div class="col-md-6 text-center">
+								<input type="text" class="form-control form-control-lg mb-4" placeholder="Your Name" required>
+							</div>
+							<div class="col-md-6 text-center">
+								<input type="email" class="form-control form-control-lg mb-4" placeholder="Email " required>
+							</div>
 						</form>
 					</div>
 				</div>
-			<div class="row">
-				<div class=" col-sm-3 col-md-11 justify-content-center center">
-					<form type="form-group"class="align-items-center chem">
-						<div class="col-sm-12">
-							<input type="text" name="Subject" placeholder="Subject" class="form-control align-items-center subject1" required >
-							<textarea type="text" placeholder="Message" class="form-control align-items--center textarea1" row="17" size="23" id="area" required grabber="disable"></textarea>
+			<div class="row justify-content-center center">
+				<div class=" col-md-10">
+					<form type="form-inline">
+						<div class="col-md-12 text-center">
+							<input type="text" name="Subject" placeholder="Subject" class="form-control form-control-lg subject1 rounded-pill round-3 round mb-3" required >
+							<textarea type="text" placeholder="Message" class="form-control form-control-lg textarea1" row="17" size="23" id="area" required grabber="disable"></textarea>
 							<button type="button" value="Send Message" class="btn btn-default align-items-center">Send Message</button>
 						</div>
 					</form>
